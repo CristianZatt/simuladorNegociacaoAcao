@@ -5,8 +5,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import br.czatt.simuladorNegociacaoAcao.repository.ClienteRepository;
+
 public class BackendController {
-	
+	/*
 	private static final Logger LOG = LoggerFactory.getLogger(BackendController.class);
 
     public static final String HELLO_TEXT = "Hello from Spring Boot Backend!";
@@ -35,6 +37,6 @@ public class BackendController {
     public @ResponseBody User getUserById(@PathVariable("id") long id) {
         LOG.info("Reading user with id " + id + " from database.");
         return userRepository.findById(id).get();
-    }
+    }*/
 
 }
