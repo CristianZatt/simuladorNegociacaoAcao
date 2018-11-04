@@ -31,6 +31,7 @@ SimuladorNegociacaoAcao
 │ └── pom.xml
 └── pom.xml     → Maven parent gerenciando os modulos
 ```
+Vale destacar também o frontend-maven-pluginqu auxilia na gerencia do projeto pelo maven naparte do frontend, uma vez que o Vue CLI não traz em seus padrões o maven como o start.spring.io faz.
 
 ## Banco de dados
 
