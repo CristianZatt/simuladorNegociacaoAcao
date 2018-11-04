@@ -18,4 +18,5 @@ public interface ClienteRepository extends CrudRepository<Cliente, Long> {
     @Override
     @Transactional(timeout = 10)
     public List<Cliente> findAll();
+
 }

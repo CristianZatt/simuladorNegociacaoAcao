@@ -1,5 +1,8 @@
 package br.czatt.simuladorNegociacaoAcao.model;
 
+import java.math.BigDecimal;
+import java.util.List;
+
 import javax.persistence.*;
 import javax.persistence.OneToOne;
 
@@ -25,7 +28,13 @@ public class Cliente {
         this.conta = conta;
     }
 
-    public Conta getConta() {
+    public Cliente(String login, String nome) {
+    	this.login = login;
+        this.nome = nome;
+        this.conta = new Conta();
+	}
+
+	public Conta getConta() {
 		return conta;
 	}
 
