@@ -1,6 +1,7 @@
 package br.czatt.simuladorNegociacaoAcao.model;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.Entity;
@@ -30,26 +31,27 @@ public class Conta {
 
 
     
-    public Conta(long id, Cliente cliente, BigDecimal saldo, List<Custodia> carteira) {
-		this.id = id;
+    public Conta(Cliente cliente, BigDecimal saldo, List<Custodia> carteira) {
 		this.cliente = cliente;
 		this.saldo = saldo;
 		this.carteira = carteira;
 	}
-
-
+    
+    public Conta(Cliente cliente, BigDecimal saldo) {
+		this.cliente = cliente;
+		this.saldo = saldo;
+		this.carteira = new ArrayList<Custodia>();
+	}
+    
+    public Conta(Cliente cliente) {
+		this.cliente = cliente;
+		this.saldo = new BigDecimal(0);
+		this.carteira = new ArrayList<Custodia>();
+	}
 
 	public long getId() {
 		return id;
 	}
-
-
-
-	public void setId(long id) {
-		this.id = id;
-	}
-
-
 
 	public BigDecimal getSaldo() {
 		return saldo;

@@ -1,5 +1,7 @@
 package br.czatt.simuladorNegociacaoAcao.model;
 
+
+
 import java.math.BigDecimal;
 import java.util.List;
 
@@ -22,16 +24,16 @@ public class Cliente {
 
     protected Cliente() {}
 
-    public Cliente(String login, String nome, Conta conta) {
-        this.login = login;
+    public Cliente(String login, String nome, BigDecimal saldo) {
+    	this.login = login;
         this.nome = nome;
-        this.conta = conta;
-    }
-
+        this.conta = new Conta(this, saldo);
+	}
+    
     public Cliente(String login, String nome) {
     	this.login = login;
         this.nome = nome;
-        this.conta = new Conta();
+        this.conta = new Conta(this);
 	}
 
 	public Conta getConta() {
@@ -67,9 +69,5 @@ public class Cliente {
 
     public long getId() {
         return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
     }
 }
