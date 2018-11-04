@@ -7,11 +7,18 @@ Vue2.js (Vue CLI 3)
 Vuetify (visual)
 Axios (chamadas de WS)
 
+Vue é um framework javascript que vem ganhamdo muito mercado, dado a sua boa curva de aprendizagem bem como interessante estruturação com componentes, e um CLI bastante útil na geração de projetos frontend.
+
+Vuetify é ma biblioteca desenvolvida para o vue que traz uma estilização maior. Poderia-se comparar a um bootstrap para vue.
+
+Axios é uma biblioteca muito útil e recomendada pela comunidade Vue para executar requisições a WS
+
 
 ## Backend Java + Spring boot:
 
 Projeto maven gerado por https://start.spring.io com spring boot 2.1.0 e as dependências Web e JPA
 
+O JPA traz aqui uma integração interessante do projeto com o banco, pois utiliza o hibernate.
 
 ## Estrutura do projeto
 
@@ -33,6 +40,7 @@ Ao inicializar o prijeto ele irá criar as tabelas nescessárias para seu funcio
 
 ## Compilar e rodar localmente no Windows
 Primeiro instalar o node 11  https://nodejs.org/en/download/
+E o java JDK 8.
 
 ```
 npm install --global vue-cli
