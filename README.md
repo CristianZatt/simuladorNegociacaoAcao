@@ -21,7 +21,7 @@ Projeto maven gerado por https://start.spring.io com spring boot 2.1.0 e as depe
 O JPA traz aqui uma integração interessante do projeto com o banco, pois utiliza o hibernate.
 
 ## Estrutura do projeto
-
+```
 SimuladorNegociacaoAcao
 ├─┬ backend     → modulo backend com spring boot
 │ ├── src
@@ -30,7 +30,7 @@ SimuladorNegociacaoAcao
 │ ├── src
 │ └── pom.xml
 └── pom.xml     → Maven parent gerenciando os modulos
-
+```
 
 ## Banco de dados
 
