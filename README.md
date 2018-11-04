@@ -71,6 +71,7 @@ mvn --projects backend spring-boot:run
 Em http://localhost:8088/ temos o frontend vue.
 Em http://localhost:8080/ temos o backend.
 
+#### Em simuladorNegociacaoAcao\backend\target temos o .jar compilado para o servidor
 
 ## Desenvolvimento rápido do frontend
 
