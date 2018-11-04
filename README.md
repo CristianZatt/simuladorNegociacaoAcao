@@ -16,7 +16,7 @@ Axios é uma biblioteca muito útil e recomendada pela comunidade Vue para execu
 
 ## Backend Java + Spring boot:
 
-Projeto maven gerado por https://start.spring.io com spring boot 2.1.0 e as dependências Web e JPA
+Projeto maven gerado por https://start.spring.io com spring boot 2.1.0 e as dependências Web, JPA e Rest Repositories
 
 O JPA traz aqui uma integração interessante do projeto com o banco, pois utiliza o hibernate.
 
