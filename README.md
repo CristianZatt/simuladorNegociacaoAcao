@@ -3,9 +3,9 @@
 
 ## Frontend Vue:
 
-Vue2.js (Vue CLI 3)
-Vuetify (visual)
-Axios (chamadas de WS)
+Vue2.js (Vue CLI 3) </br>
+Vuetify (visual) </br>
+Axios (chamadas de WS) </br>
 
 Vue é um framework javascript que vem ganhamdo muito mercado, dado a sua boa curva de aprendizagem bem como interessante estruturação com componentes, e um CLI bastante útil na geração de projetos frontend.
 
