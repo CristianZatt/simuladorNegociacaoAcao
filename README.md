@@ -166,12 +166,12 @@ Then follow these instructions on Stackoverflow to configure all needed Environm
 
 Mind the addition to the backend's [pom.xml](backend/pom.xml) described here: https://stackoverflow.com/a/49970142/4964553
 
-Now you're able to use Spring Data's magic - all you need is an Interface like [UserRepository.java](backend/src/main/java/de/jonashackt/springbootvuejs/repository/UserRepository.java):
+Now you're able to use Spring Data's magic - all you need is an Interface like [UserRepository.java](backend/src/main/java/de/jonashackt/simuladorNegociacaoAcao/repository/UserRepository.java):
 
 ```java
-package de.jonashackt.springbootvuejs.repository;
+package br.czatt.simuladorNegociacaoAcao.repository;
 
-import de.jonashackt.springbootvuejs.domain.User;
+import br.czatt.simuladorNegociacaoAcao.domain.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 
