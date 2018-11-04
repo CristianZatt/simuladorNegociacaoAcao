@@ -7,12 +7,14 @@ Vue2.js (Vue CLI 3)
 Vuetify (visual)
 Axios (chamadas de WS)
 
+
 ## Backend Java + Spring boot:
 
 Projeto maven gerado por https://start.spring.io com spring boot 2.1.0 e as dependências Web e JPA
 
 
 ## Estrutura do projeto
+
 SimuladorNegociacaoAcao
 ├─┬ backend     → modulo backend com spring boot
 │ ├── src
@@ -23,7 +25,11 @@ SimuladorNegociacaoAcao
 └── pom.xml     → Maven parent gerenciando os modulos
 
 
+## Banco de dados
 
+É preciso ter um banco postgres rodando, com uma base simuladorNegociacaoAcao e com senha !testAPP@
+
+Ao inicializar o prijeto ele irá criar as tabelas nescessárias para seu funcionamento
 
 ## Compilar e rodar localmente no Windows
 Primeiro instalar o node 11  https://nodejs.org/en/download/
