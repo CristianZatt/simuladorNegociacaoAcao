@@ -1,4 +1,4 @@
-package br.czatt.simuladorNegociacaoAcao.domain;
+package br.czatt.simuladorNegociacaoAcao.model;
 
 import java.math.BigDecimal;
 import java.util.List;

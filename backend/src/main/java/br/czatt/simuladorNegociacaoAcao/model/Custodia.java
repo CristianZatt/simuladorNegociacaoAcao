@@ -1,4 +1,4 @@
-package br.czatt.simuladorNegociacaoAcao.domain;
+package br.czatt.simuladorNegociacaoAcao.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

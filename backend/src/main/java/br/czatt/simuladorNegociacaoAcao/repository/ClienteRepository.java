@@ -4,7 +4,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.czatt.simuladorNegociacaoAcao.domain.Cliente;
+import br.czatt.simuladorNegociacaoAcao.model.Cliente;
 
 import java.util.List;
 
