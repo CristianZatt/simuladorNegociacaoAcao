@@ -7,7 +7,7 @@ Vue2.js (Vue CLI 3) </br>
 Vuetify (visual) </br>
 Axios (chamadas de WS) </br>
 
-Vue é um framework javascript que vem ganhamdo muito mercado, dado a sua boa curva de aprendizagem bem como interessante estruturação com componentes, e um CLI bastante útil na geração de projetos frontend.
+Vue é um framework javascript que vem ganhamdo muito mercado, dado a sua boa curva de aprendizagem bem como interessante estruturação com componentes, e um CLI bastante útil na geração de projetos frontend. Trouxe essa tecnologia para um projeto da UNISC que está começando, e em nosso piloto para um PWA vem se mostrando muito eficaz, desbancando o antes utilizado Ionic.
 
 Vuetify é ma biblioteca desenvolvida para o vue que traz uma estilização maior. Poderia-se comparar a um bootstrap para vue.
 
